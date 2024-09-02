@@ -6,7 +6,7 @@ class abc{
     int z;
 
     public:
-    abc(){
+    abc(){ 
         x = 0;
         y = new int(0);
     }
@@ -94,7 +94,7 @@ int main(){
 //   case-1 . const with pointer
 
 //     // const int* a = new int(10); // const data non-const pointer
-//     int const* a = new int(10); // same as line-8
+//     int const* a = new int(10); // same as uper line
 //     cout<<*a <<endl;
    
 //   // *a = 40; // cant change
